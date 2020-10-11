@@ -46,5 +46,6 @@ alt text was added to all images
 ```
 
 ## Live Project
-github project page: https://github.com/YouFarted/WebStuff
+
+github project page: https://github.com/YouFarted/WebStuff<br/>
 github live site: https://youfarted.github.io/WebStuff/
