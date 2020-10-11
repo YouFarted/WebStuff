@@ -27,6 +27,7 @@ THEN I find a concise, descriptive title
 ```
 
 ## Changes
+```
 semantic improvements:
 divs switched to their equivilent semantic element:
 class=header -> header element
@@ -42,5 +43,6 @@ general improvements:
 brief descriptive title for better accessibility
 a local link was fixed.  It conflated a class name with an id and tried to reference with href=#className
 alt text was added to all images
+```
 
 ## Live Project Site
