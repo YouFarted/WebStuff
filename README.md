@@ -2,9 +2,14 @@
 
 ## Table of Contents
 
+* [Goal](#goal)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Changes](#changes)
 * [Live Project Site](#live-project-site)
+
+## Goal
+
+Provided a static webpage that describes logical groupings in terms of div elements with custom classnames that hint at their semantic purpose, my goal is to incrementally adjust it such that it is described in terms of semantics for the purpose of accessibility. Most of the visual description has already been decoupled from the page itself, using an external css file. And so the decoupling of visuals from semantics has already begun. However, using semantic elements takes this a step further by describing intent to any tools consuming the page which includes the accessibility features of browsers, web-crawler bots for google ("search optimization") and any other theoretical html parsing tools. I will adjust the page incrementally such that it remains in not only a working state, but also remains visually identical to the prior change and hence transitively preserves the look of the page from the beginning.
 
 ## Acceptance Criteria
 
