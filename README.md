@@ -1,9 +1,13 @@
-# Port a webpage to use semantic HTML, eschewing divs that implicitly express purpose, and replacing them with explicit intent.
-Provided a static webpage that describes logical groupings in terms of div elements with custom classnames that hint at their semantic purpose, my goal is to incrementally adjust it such that it is described in terms of semantics
-for the purpose of accessibility.  Most of the visual description has already been decoupled from the page itself, using an external css file.  And so the decoupling of visuals from semantics has already begun.  However, using semantic elements takes this a step further by describing intent to any tools consuming the page which includes the accessibility features of browsers, web-crawler bots for google ("search optimization") and any other theoretical html parsing tools.  I will adjust the page incrementally such that it remains in not only a working state, but also remains visually identical to the prior change and hence transitively preserves the look of the page from the beginning.
+# Port to Semantic Html
 
-As for README markdown common section recommendations, I will avoid the biolerplate bloat gesture of filling in something under headings for Description (it is just a simple static page), table of contents (frankly, there is not enough interesting text), usage(it's a static webpage - go to it using a browser?), credits(just me and thanks, class, for the baseline page?), license(ferrealz - not appropriate for a homework), and badges(Go HTML5!  And ES6 at some point - hip hip horray!  Pfffttttt.  And JQuery is Awesome!  Woopdeedoo!  To be completely honest, I just MIGHT do badges but it is generally techie geek cheerleading and probably not suitable to my audience with whom I would wish to focus on practicality).  Then there's Contributing (but my homeworks are all just me apart from the provided baseline and you know where that's from) and Testing (But it's a static page AND with no javascript in it so what is there to test apart from eyeballing it to see it looks no different from the provided baseline?)
+## Table of Contents
 
-And now for my TL;DR: ... I like Agile ... YOU like Agile, and I hear you loud and clear.
-But to put it verbosely:
-Incrementality is a very deliberate focus in Agile work. (yes, I am familiar with it beyond the "Good-README-Guide" commentary and I agree with the ideas - I applaud you for emphasizing them in your material)  Agile is not only excellent for creating working, maintainable code that suits the requirements (evolving as the may and which they inevitably do) but it is a discipline that web-developers can take with them to their next place of employment and show that they have a competitive edge over fly-by-night contractors (keep in mind that outsourcing is cheap) who will leave an employer holding the cards on a functionally working (for now) webpage which is ultimattely gonna fall apart and fail to suit the needs of the company as each progressive change becomes increasingly expensive and risky.  The inflexibility will inevitibly accrue enough rot to tip over and force a rewrite, replacement, or otherwise abandonment.  Waterfall is a pipe-dream and I've seen enough of it to know.  But businesses like waterfall because it issues promises and deadlines up frount - both of which are founded upon lies and delusion and so failure likely results.  But CEOs and upper leadership don't want to hear wishy-washy "It'll be done when it's ready - we're report the progress as it happens."  So this tension must be resolved.  And doing so is the real "challenge" (difficulty).  But enough about process.
+* [Acceptance Criteria](#acceptance-criteria)
+* [Changes](#changes)
+* [Live Project Site](#live-project-site)
+
+## Acceptance Criteria
+
+## Changes
+
+## Live Project Site
