@@ -5,7 +5,7 @@
 * [Goal](#goal)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Changes](#changes)
-* [Live Project Site](#live-project-site)
+* [Live Project](#live-project)
 
 ## Goal
 
@@ -45,4 +45,6 @@ a local link was fixed.  It conflated a class name with an id and tried to refer
 alt text was added to all images
 ```
 
-## Live Project Site
+## Live Project
+github project page: https://github.com/YouFarted/WebStuff
+github live site: https://youfarted.github.io/WebStuff/
