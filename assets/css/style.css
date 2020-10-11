@@ -32,10 +32,13 @@ header nav {
     font-size: 20px;
 }
 
+/* These are laid out to run horizontally in a nav bar.  
+   Hence I want no decorations to the left of each item as with vertical lists that might appear in the contents of a page*/
 header nav ul {
     list-style-type: none;
 }
 
+/* left to right flow to the right of the logo thing with no interrupting line break */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -49,6 +52,19 @@ a {
 p {
     font-size: 16px;
 }
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+/* Begin organization by classes now that items selected by element type are at their end */
 
 .hero {
     height: 800px;
@@ -186,15 +202,4 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
