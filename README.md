@@ -8,6 +8,33 @@
 
 ## Acceptance Criteria
 
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+
 ## Changes
+semantic improvements:
+divs switched to their equivilent semantic element:
+class=header -> header element
+class=footer -> footer element
+div used as a nav bar -> nav element
+div used as a header -> header element
+div used as a figure -> figure element
+divs(2) used as the two main subsections of content -> article elements
+added new element for structure to capture the apparent logical intent:
+new main element surrounds the main content of the page now expressed as 2 articles
+
+general improvements:
+brief descriptive title for better accessibility
+a local link was fixed.  It conflated a class name with an id and tried to reference with href=#className
+alt text was added to all images
 
 ## Live Project Site
